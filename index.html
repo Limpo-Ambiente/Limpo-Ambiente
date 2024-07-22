@@ -5,28 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Limpo Ambiente</title>
-
-    <!-- roboto fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <!-- league fonte -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
     <link rel="shortcut icon" href="icon.png">
-
-    <script src="https://kit.fontawesome.com/6bda94a8de.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
 
+    <!-- cabeçalho -->
+    
     <header>
         <!--order 1-->
         <div class="logos">
@@ -75,6 +60,8 @@
                     body.classList.toggle('dark')
                 });
 
+                //JavaScript das setas do carrossel
+
                 function proximoSlide() {
 
                     const radios = document.querySelectorAll('input[type="radio"]');
@@ -122,24 +109,23 @@
                     Entenda como preservar o meio ambiente da forma correta. <br> O mundo precisa de você!
                 </p>
 
-
             </div>
 
-
             <img class="wofoto" src="fotos/mundopng.png" alt="" width="200px" height="200px">
-
-
-
 
     </main>
 
     <div class="container">
+
+        <!-- sombra do carrossel -->
 
         <div class="sombra">
 
             <div class="sombra1"></div>
 
         </div>
+
+        <!-- fim da sombra -->
 
         <p class="textcar">Conheça alguns dos tipos de lixo:</p>
 
@@ -161,11 +147,17 @@
 
             <input type="radio" name="radio" id="fundo8">
 
+            <!-- primeira sessão setas para navegabilidade. somente existentes na versão para computador. -->
+
             <div class="setas">
 
                 <div class="seta" onclick="slideAnterior()"></div>
 
             </div>
+
+            <!-- fim das setas -->
+
+            <!-- conteúdo do carrossel -->
 
             <div class="fundo">
 
@@ -182,8 +174,6 @@
             </div>
 
             <img src="carrossel/fundo.png" alt="papel com rebarbas" class="imgcar">
-
-
 
             <div class="fundo2">
 
@@ -324,6 +314,10 @@
 
             <br>
 
+            <!-- fim do conteúdo -->
+
+            <!-- labels (meio de navegação, as bolinhas que ficam abaixo do carrossel) para navegação. -->
+
             <div class="navegacao">
 
                 <label for="fundo" class="bar"></label>
@@ -344,6 +338,10 @@
 
             </div>
 
+            <!-- fim das labels -->
+
+            <!-- segunda sessão de setas para navegabilidade. -->
+
             <div class="setas">
 
                 <div class="seta2" onclick="proximoSlide()"></div>
@@ -352,13 +350,21 @@
 
         </div>
 
+        <!-- fim das setas -->
+
+        <!-- sombras que ficam ao lado no modo navegdaor de computador, no modo mobile elas não aparecem -->
+
         <div class="sombra">
 
             <div class="sombra2"></div>
 
         </div>
 
+        <!-- fim das sombras -->
+
     </div>
+
+    <!-- info sobre descarte incorreto -->
 
     <div class="s1">
         <h2>Saiba porque o descarte incorreto <br> do lixo
@@ -372,6 +378,10 @@
             <img src="fotos/lixospng.png" alt="" height="200px" width="330px" class="img1">
         </div>
     </div>
+
+    <!-- fim das infos -->
+
+    <!-- dados sobre lixo produzido -->
 
     <div class="conhec">
 
@@ -393,6 +403,10 @@
 
     </div>
 
+    <!-- fim dos dados -->
+
+    <!-- form com PHP -->
+
     <div class="rec">
 
         <h6>E você? Como recicla na sua casa? </h6>
@@ -406,7 +420,6 @@
                 <button type="submit">Enviar</button>
 
             </label>
-
 
             <?php
             $servername = "localhost";
@@ -432,10 +445,13 @@
             ?>
         </form>
 
-
     </div>
 
+    <!-- fim do form -->
+
     <!-- footer -->
+
+    <!-- campanhas -->
 
     <div class="cam" id="campanha">
 
@@ -533,31 +549,32 @@
 
     </div>
 
+    <!-- fim das campanhas -->
+
     <footer>
         <img src="fotos/logo_preto.png" alt="" height="120px">
         <hr>
         <div class="tudo">
             <div class="voltar">
                 <h3>Volte para:</h3>
-                <a href="">Home</a>
+                <a href="#">Home</a>
             </div>
 
             <div class="referencias">
                 <h3>Referências da Página:</h3>
-                <a href="">pag Kim</a>
-                <a href="/pag_gi/lixo_reciclavel.html">pag Gi</a>
-                <a href="/pag_laiz/lixo_domiciliar.html">Pag Laiz</a>
-                <a href="/pag_ind/lixo_verde.html">Pag Den</a>
+                <a href="https://exame.com/"> Exame</a>
+                <a href="https://www.ecycle.com.br/"> eCycle </a>
+                <a href="https://www.todamateria.com.br/"> Toda Matéria </a>
+                <a href="https://sitesustentavel.com.br/"> Site Sustentável </a>
             </div>
 
             <div class="links_rapidos">
                 <h3>Links Rápidos</h3>
                 <a href="">Siga nosso linktree</a>
-                <a href="/pag_ind/main.html">Sobre nós</a>
-                <a href="#">Curiosidades</a>
-                <a href="#">Campanhas</a>
+                <a href="https://limpo-ambiente.github.io/sobre1/">Sobre nós</a>
+                <a href="https://limpo-ambiente.github.io/curiosidades/">Curiosidades</a>
+                <a href="#campanha">Campanhas</a>
             </div>
-
 
             <p>&copy;2024 Desenvolvido por Limpo Ambiente</p>
     </footer>
