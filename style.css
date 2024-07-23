@@ -585,11 +585,11 @@ h1 {
 /* começa carrossel */
 
 main {
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 
 .container {
-    height: 210px;
+    height: 410px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 100%;
