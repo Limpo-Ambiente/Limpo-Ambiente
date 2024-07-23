@@ -1031,25 +1031,64 @@ a {
     }
 
     .container {
-        height: 420px;
+        width: 100vh;
         margin-top: 55%;
     }
 
-    .imgcar {
-        width: 20%;
+    .sombra1 {
+        opacity: 0;
+    }
 
+    .sombra2 {
+        opacity: 0;
+    }
+
+    .setas {
+        opacity: 0;
+    }
+
+    .imgcar {
+        width: 0%;
     }
 
     .textfund {
-        padding: 90px;
-        font-family: open sans;
-        font-style: oblique;
+        padding-bottom: 20%;
+        position: relative;
+        top: -100%;
+        font-size: 18px;
+    }
+
+    .textfund1 {
+        padding-bottom: 20%;
+        position: relative;
+        top: -100%;
+        font-size: 18px;
+    }
+
+    .texta2.a {
+        position: relative;
+        top: -20%;
+    }
+
+    .texta2.b {
+        position: relative;
+        top: 15%;
+    }
+
+    .texta {
+        position: relative;
+        top: -5%;
+    }
+
+    .texta.v {
+        position: relative;
+        top: -10%;
     }
 
     .fundo {
-        left: 17.1%;
-        top: 2em;
-        padding: 0 1%;
+        left: -1%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1063,8 +1102,8 @@ a {
 
     .fundo2 {
         left: 16.6%;
-        top: 4em;
-        padding: 0 1%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1077,9 +1116,9 @@ a {
     }
 
     .fundo3 {
-        left: 15.9%;
-        top: 2.3em;
-        padding: 0 1%;
+        left: 20%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1092,9 +1131,9 @@ a {
     }
 
     .fundo4 {
-        left: 15.1%;
-        top: 2em;
-        padding: 0 1%;
+        left: 25%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1107,9 +1146,9 @@ a {
     }
 
     .fundo5 {
-        left: 16.7%;
-        top: 4em;
-        padding: 0 1%;
+        left: 35%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1122,9 +1161,9 @@ a {
     }
 
     .fundo6 {
-        left: 17.9%;
-        top: 2.3em;
-        padding: 0 1%;
+        left: 45%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1137,9 +1176,9 @@ a {
     }
 
     .fundo7 {
-        left: 17.5%;
-        top: 2em;
-        padding: 0 1%;
+        left: 55%;
+        top: 1em;
+        padding: 6%;
 
         &:hover {
 
@@ -1153,8 +1192,8 @@ a {
 
     .fundo8 {
         left: 21.6%;
-        top: 4em;
-        padding: 0 1%;
+        top: 1em;
+        padding: 6%;
         margin: 0 85%;
 
         &:hover {
@@ -1182,35 +1221,35 @@ a {
     }
 
     #fundo:checked {
-        margin-left: 26%;
+        margin-left: 24%;
     }
 
     #fundo2:checked {
-        margin-left: -9%;
+        margin-left: -50%;
     }
 
     #fundo3:checked {
-        margin-left: -43.5%;
+        margin-left: -110%;
     }
 
     #fundo4:checked {
-        margin-left: -77.5%;
+        margin-left: -170%;
     }
 
     #fundo5:checked {
-        margin-left: -112.4%;
+        margin-left: -231%;
     }
 
     #fundo6:checked {
-        margin-left: -147%;
+        margin-left: -290%;
     }
 
     #fundo7:checked {
-        margin-left: -181.5%;
+        margin-left: -353%;
     }
 
     #fundo8:checked {
-        margin-left: -305%;
+        margin-left: -463%;
     }
 
     label {
