@@ -110,7 +110,7 @@ header {
     /*-----------------/LOGOS-----------------*/
 
     nav {
-        
+        margin-left:40px;
         margin-right: 3%;
         font-size: 23px;
         display: flex;
