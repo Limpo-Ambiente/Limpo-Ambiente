@@ -68,11 +68,12 @@ body {
 }
 
 /*-----------------HEADER-----------------*/
+
 header {
     width: 100%;
     display: flex;
+    justify-content: space-between;
     padding: 0 5rem;
-    justify-content: center;
     align-items: center;
     box-shadow: -1px -8px 40px #0000006e;
     height: 100px;
@@ -86,31 +87,39 @@ header {
     z-index: 10000;
 
     /*-----------------MENU-HAMBURGER-----------------*/
-    #menu-btn {
-        display: none;
-    }
+        #menu-btn {
+            display: none;
+        }
 
     /*-----------------/MENU-HAMBURGER-----------------*/
 
     /*-----------------LOGOS-----------------*/
-    img {
-        width: 120px;
-        transition: 0.5s ease;
+        img {
+            width: 120px;
+            transition: 0.5s ease;
 
-        &:hover {
-            transform: scale(90%);
-            cursor: pointer;
+            &:hover {
+                transform: scale(90%);
+                cursor: pointer;
+            }
         }
-    }
 
-    .logoBgBlack {
-        display: none;
-    }
+        .logoBgBlack {
+            display: none;
+        }
+
+        .dark .logoBgWhite {
+            display: none;
+        }
+
+        .dark .logoBgBlack {
+            display: grid;
+        }
 
     /*-----------------/LOGOS-----------------*/
 
     nav {
-        margin-left:40px;
+       
         margin-right: 3%;
         font-size: 23px;
         display: flex;
@@ -121,8 +130,9 @@ header {
     }
 
     .menu-list {
+     
         display: flex;
-          gap: 70px;
+        gap: 70px;
 
         a {
             text-decoration: none;
@@ -139,6 +149,7 @@ header {
             list-style: none;
         }
     }
+
 
     /*-----------------DARK-MODE-BTN-----------------*/
     .dark_btn {
