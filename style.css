@@ -431,6 +431,10 @@ header {
     }
 }
 
+.entenda{
+    text-align: left;
+}
+
 .card img {
     width: 125px;
     margin-top: 15%;
