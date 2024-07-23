@@ -1010,7 +1010,7 @@ a {
 @media (max-width: 760px) {
 
     main {
-        padding-bottom: 110%;
+        padding-bottom: 80%;
 
         & h1 {
 
@@ -1032,7 +1032,7 @@ a {
 
     .container {
         width: 100vh;
-        margin-top: 55%;
+        margin-top: 25%;
     }
 
     .sombra1 {
