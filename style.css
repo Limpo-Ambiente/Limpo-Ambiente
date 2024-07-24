@@ -1324,7 +1324,7 @@ button {
     border: none;
     color: #ffff;
     font-family: questrial;
-    margin-left: 35%;
+    margin-left: 45%;
 
     &:active {
         border: none;
@@ -1535,7 +1535,7 @@ h3 {
     }
 
     .s1 h2 {
-        margin-left: -5%;
+        margin-left: -15%;
         text-align: center;
         font-size: 22px;
 
@@ -1579,7 +1579,7 @@ h3 {
     }
 
     .button {
-        margin-left: 25%;
+        margin-left: -25%;
     }
 }
 
