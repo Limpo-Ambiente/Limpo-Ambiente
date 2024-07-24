@@ -517,7 +517,7 @@ a.campi {
     }
     
     .cam {
-        margin-left: -12.8%
+        margin-left: -5%
     }
 
     h3.textcam {
@@ -549,7 +549,8 @@ a.campi {
 
     & img {
         margin-top: 1.8%;
-        width: 450px;
+        height: 250px;
+        width: 250px;
         margin-left: 5%;
 
     }
@@ -1031,7 +1032,8 @@ a {
 
     .container {
         width: 100vh;
-        margin-top: -20%;
+        margin-top: -30%;
+        margin-bottom: 5%;
     }
 
     .sombra1 {
@@ -1326,7 +1328,7 @@ button {
     border: none;
     color: #ffff;
     font-family: questrial;
-    margin-left: 15%;
+    margin-left: 45%;
 
     &:active {
         border: none;
@@ -1531,7 +1533,7 @@ h3 {
     }
 
     .s1 {
-        margin-left: 15%;
+        margin-left: 13%;
     }
 
     .s1 h2 {
@@ -1547,7 +1549,7 @@ h3 {
     }
 
     .conhec {
-        margin-left: 15%;
+        margin-left: 13%;
     }
 
     .conhec h2 {
@@ -1561,32 +1563,22 @@ h3 {
         margin-top: 5%;
         display: flex;
         flex-direction: column;
-        margin-left: 15%;
-        & img{
-            margin-left: 5%;
-        }
+        margin-left: 10%;
     }
 
     .con {
-        margin-left: 15%;
+        margin-left: 10%;
    
    & p {
             font-size: 17px;
             width: 320px;
             margin-left: 12%;
-      
         }
-
     }
 
     .img {
         margin-left: 30%;
     }
-
-    .cam p {
-        opacity: 0;
-    }
-
  
 }
 
