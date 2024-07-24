@@ -1028,7 +1028,7 @@ a {
 
     .container {
         width: 100vh;
-        margin-top: -30%;
+        margin-top: -10%;
         margin-bottom: 5%;
     }
 
@@ -1480,8 +1480,8 @@ h3 {
         & img {
             margin-left: 19.9%;
             padding: 5%;
-            width: 450px;
-            height: 450px;
+            width: 350px;
+            height: 350px;
         }
     }
 
@@ -1535,7 +1535,7 @@ h3 {
     }
 
     .s1 h2 {
-        margin-left: -1%;
+        margin-left: -5%;
         text-align: center;
         font-size: 22px;
 
@@ -1577,7 +1577,10 @@ h3 {
     .img {
         margin-left: 30%;
     }
- 
+
+    .button {
+        margin-left: 25%;
+    }
 }
 
 .imgf img {
