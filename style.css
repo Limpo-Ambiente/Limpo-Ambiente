@@ -1030,7 +1030,7 @@ a {
 
     .container {
         width: 100%;
-        margin-top: -15%;
+        margin-top: -10%;
         margin-bottom: 5%;
     }
 
@@ -1220,7 +1220,7 @@ a {
     }
 
     #fundo:checked {
-        margin-left: 24%;
+        margin-left: 5%;
     }
 
     #fundo2:checked {
@@ -1228,23 +1228,23 @@ a {
     }
 
     #fundo3:checked {
-        margin-left: -110%;
+        margin-left: -210%;
     }
 
     #fundo4:checked {
-        margin-left: -170%;
+        margin-left: -310%;
     }
 
     #fundo5:checked {
-        margin-left: -231%;
+        margin-left: -407%;
     }
 
     #fundo6:checked {
-        margin-left: -290%;
+        margin-left: -500%;
     }
 
     #fundo7:checked {
-        margin-left: -353%;
+        margin-left: -598.5%;
     }
 
     #fundo8:checked {
