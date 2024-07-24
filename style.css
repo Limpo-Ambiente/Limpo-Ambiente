@@ -588,7 +588,7 @@ main {
     height: 405px;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 115%;
+    top: 110%;
     left: 50%;
     background-color: #597CFF;
     overflow-y: hidden;
