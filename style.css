@@ -535,7 +535,7 @@ a.campi {
     }
 
     .entenda p {
-        margin-left: 85%;
+        margin-right: 5%;
     }
 }
 
@@ -1030,7 +1030,7 @@ a {
     }
 
     .container {
-        width: 100%;
+        width: 50%;
         margin-top: -10%;
         margin-bottom: 5%;
     }
