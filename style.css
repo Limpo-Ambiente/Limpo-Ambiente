@@ -549,9 +549,8 @@ a.campi {
 
     & img {
         margin-top: 1.8%;
-        height: 250px;
-        width: 250px;
-        margin-left: 1%;
+        width: 450px;
+        margin-left: 5%;
 
     }
 }
@@ -565,8 +564,6 @@ a.campi {
    font-family: exo;
     font-size: 16.6px;
     text-align: center;
-    margin-left: -5%;
-  
     }
 }
 
@@ -1034,7 +1031,7 @@ a {
 
     .container {
         width: 100vh;
-        margin-top: -10%;
+        margin-top: -20%;
     }
 
     .sombra1 {
@@ -1329,6 +1326,7 @@ button {
     border: none;
     color: #ffff;
     font-family: questrial;
+    margin-left: 15%;
 
     &:active {
         border: none;
@@ -1522,7 +1520,6 @@ h3 {
     .grafico {
         & img {
             height: 300px;
-            margin-left: -20%;
         }
 
 
@@ -1531,7 +1528,10 @@ h3 {
     p.p1  {
         font-size: 17px;
         margin-left: -15%;
-      
+    }
+
+    .s1 {
+        margin-left: 15%;
     }
 
     .s1 h2 {
@@ -1546,6 +1546,10 @@ h3 {
         left: -25%;
     }
 
+    .conhec {
+        margin-left: 15%;
+    }
+
     .conhec h2 {
         margin-left: -13%;
        margin-top: 5%;
@@ -1557,13 +1561,14 @@ h3 {
         margin-top: 5%;
         display: flex;
         flex-direction: column;
-        margin-left: -8%;
+        margin-left: 15%;
         & img{
             margin-left: 5%;
         }
     }
 
     .con {
+        margin-left: 15%;
    
    & p {
             font-size: 17px;
@@ -1575,7 +1580,6 @@ h3 {
     }
 
     .img {
-        margin: 0;
         margin-left: 30%;
     }
 
