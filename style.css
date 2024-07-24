@@ -585,7 +585,7 @@ main {
 }
 
 .container {
-    height: 410px;
+    height: 405px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 115%;
