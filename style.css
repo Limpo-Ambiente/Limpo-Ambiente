@@ -534,9 +534,8 @@ a.campi {
         margin-top: 20%;
     }
 
-    .entenda p {
-        margin-right: 5%;
-        text-align: center;
+    .custo {
+        margin-left: 15%;
     }
 }
 
@@ -1582,8 +1581,8 @@ h3 {
         margin-left: 30%;
     }
 
-    .button {
-        margin-right: 79%;
+    button {
+        margin-left: 25%;
     }
 }
 
