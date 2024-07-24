@@ -1315,6 +1315,12 @@ h2 {
     border-right: 0px;
     border-color: #000;
     text-align: center;
+    transition: 0.5s ease;
+}
+
+.dark .recic {
+    background-color: #161616;
+    transition: 0.5s ease;
 }
 
 button {
