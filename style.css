@@ -1632,17 +1632,17 @@ footer {
 
         & .voltar {
             display: grid;
-            gap: 0.1rem;
+            gap: 1rem;
         }
 
         & .referencias {
             display: grid;
-            gap: 0.1rem;
+            gap: 1rem;
         }
 
         & .links_rapidos {
             display: grid;
-            gap: 0.1rem;
+            gap: 1rem;
         }
 
         & form {
