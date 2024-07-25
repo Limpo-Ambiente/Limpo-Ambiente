@@ -533,11 +533,6 @@ a.campi {
         left: 15%;
         margin-top: 20%;
     }
-
-    .custo {
-        position: relative;
-        left: 12%;
-    }
 }
 
 .mundo {
@@ -1236,7 +1231,7 @@ a {
     }
 
     #fundo5:checked {
-        margin-left: -313%;
+        margin-left: -320%;
     }
 
     #fundo6:checked {
@@ -1487,7 +1482,7 @@ h3 {
         }
 
         & img {
-            margin-left: 15%;
+            margin-left: 22%;
             padding: 5%;
             width: 350px;
             height: 350px;
