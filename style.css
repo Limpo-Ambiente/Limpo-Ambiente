@@ -902,7 +902,7 @@ input {
 }
 
 #fundo2:checked {
-    margin-left: -145%;
+    margin-left: -125%;
 }
 
 #fundo3:checked {
@@ -1224,7 +1224,7 @@ a {
     }
 
     #fundo2:checked {
-        margin-left: -50%;
+        margin-left: -115%;
     }
 
     #fundo3:checked {
