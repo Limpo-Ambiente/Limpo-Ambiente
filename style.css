@@ -1025,7 +1025,7 @@ a {
 
     .container {
         width: 100%;
-        margin-top: -5%;
+        margin-top: -7%;
         margin-bottom: 5%;
     }
 
@@ -1235,7 +1235,7 @@ a {
     }
 
     #fundo6:checked {
-        margin-left: -350%;
+        margin-left: -370%;
     }
 
     #fundo7:checked {
@@ -1584,7 +1584,7 @@ h3 {
     }
 
     .botao {
-        margin-left: 19%;
+        margin-left: 19.5%;
     }
 }
 
