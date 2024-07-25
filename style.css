@@ -1232,11 +1232,11 @@ a {
     }
 
     #fundo4:checked {
-        margin-left: -243%;
+        margin-left: -242%;
     }
 
     #fundo5:checked {
-        margin-left: -407%;
+        margin-left: -307%;
     }
 
     #fundo6:checked {
@@ -1481,7 +1481,7 @@ h3 {
         & p {
             font-size: 15px;
             width: 410px;
-            margin-left: -20%;
+            margin-left: -25%;
       
 
         }
