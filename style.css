@@ -1236,7 +1236,7 @@ a {
     }
 
     #fundo5:checked {
-        margin-left: -307%;
+        margin-left: -313%;
     }
 
     #fundo6:checked {
@@ -1481,13 +1481,13 @@ h3 {
         & p {
             font-size: 15px;
             width: 410px;
-            margin-left: -25%;
+            margin-left: -5%;
       
 
         }
 
         & img {
-            margin-left: 19.9%;
+            margin-left: 15%;
             padding: 5%;
             width: 350px;
             height: 350px;
