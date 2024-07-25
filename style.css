@@ -1476,13 +1476,13 @@ h3 {
         & p {
             font-size: 15px;
             width: 410px;
-            margin-left: -5%;
+            margin-left: 5%;
       
 
         }
 
         & img {
-            margin-left: 22%;
+            margin-left: 18%;
             padding: 5%;
             width: 350px;
             height: 350px;
