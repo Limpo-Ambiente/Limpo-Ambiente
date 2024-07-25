@@ -1235,7 +1235,7 @@ a {
     }
 
     #fundo6:checked {
-        margin-left: -438%;
+        margin-left: -15em;
     }
 
     #fundo7:checked {
@@ -1584,7 +1584,7 @@ h3 {
     }
 
     .botao {
-        margin-left: 10em;
+        margin-left: 7em;
     }
 }
 
