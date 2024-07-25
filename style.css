@@ -1025,7 +1025,7 @@ a {
 
     .container {
         width: 100%;
-        margin-top: -8.5%;
+        margin-top: -8%;
         margin-bottom: 5%;
     }
 
@@ -1235,7 +1235,7 @@ a {
     }
 
     #fundo6:checked {
-        margin-left: -425%;
+        margin-left: -435%;
     }
 
     #fundo7:checked {
