@@ -1631,7 +1631,7 @@ footer {
 
         & h5 {
             margin-bottom: 0.4rem;
-            font-size: 18px;
+            font-size: 18.72px;
         }
 
         & .voltar {
@@ -1701,6 +1701,7 @@ footer {
 
             & h5 {
                 margin-bottom: 0.4rem;
+                font-size: 18.72px;
             }
 
             & .voltar {
