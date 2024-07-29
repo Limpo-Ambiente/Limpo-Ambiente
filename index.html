@@ -407,50 +407,6 @@
 
     <!-- fim dos dados -->
 
-    <!-- form com PHP -->
-
-    <div class="rec">
-
-        <h6>E você? Como recicla na sua casa? </h6>
-
-        <form action="" method="post">
-
-            <label for="">
-
-                <input type="text" class="recic" name="nome" id="nome">
-
-                <button type="submit" class="botao">Enviar</button>
-
-            </label>
-
-            <?php
-            $servername = "localhost";
-            $username = "root";
-            $password = "";
-            $dbname = "limpoambiente";
-
-            $conn = new mysqli($servername, $username, $password, $dbname);
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                $nome = $_POST["nome"];
-
-
-                $sql = "INSERT INTO comovc ( nome ) VALUES ('$nome') ";
-                if ($conn->query($sql) === TRUE) {
-                    echo "";
-                } else {
-                    echo "erro:" . $sql . "<br>" . $conn->error;
-                }
-
-            }
-
-            $conn->close();
-            ?>
-        </form>
-
-    </div>
-
-    <!-- fim do form -->
-
     <!-- footer -->
 
     <!-- campanhas -->
